@@ -443,8 +443,8 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
         if (cps <= 2) return '我美吗？回去再练练？';
         if (cps <= 3) return '肖外HP-1';
-        if (cps <= 4)  return '对方已受到致命下巴攻击';
-        if (cps <= 5) return '打击肖外进度已达99.9%，加油！';
+        if (cps <= 3.5)  return '对方已受到致命下巴攻击';
+        if (cps <= 4.5) return '打击肖外进度已达99.9%，加油！';
         return '恭喜您成功打击肖外，凭截图获100软妹币！';
     }
 
